@@ -13,7 +13,16 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        serif: ['Playfair Display', 'Georgia', 'serif'],
+      },
       colors: {
+        gold: 'hsl(var(--gold))',
+        'gold-light': 'hsl(var(--gold-light))',
+        'rose-gold': 'hsl(var(--rose-gold))',
+        charcoal: 'hsl(var(--charcoal))',
+        ivory: 'hsl(var(--ivory))',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
